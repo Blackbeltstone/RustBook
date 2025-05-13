@@ -1,0 +1,17 @@
+rustc will compile the code and create an executable file.
+
+cargo new will create a new project in the current directory.
+
+cargo build will compile the code and create an executable file in the target/debug directory.
+This will only compile the changed code, leaving unchanged code like dependencies alone unless specidied differently in toml file.
+
+cargo update will update the dependencies to the latest version under the main version number, 
+dependiences must be updated manually for version number changes.
+
+cargo run will compile the code and run the executable file.
+
+cargo check will compile the code and check if it will work.
+
+cargo clean will clean the target/debug directory.
+
+
